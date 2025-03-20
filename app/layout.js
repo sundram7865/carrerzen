@@ -8,7 +8,7 @@ import { dark } from "@clerk/themes";
 const inter = Inter({subsets: ['latin']});
 
 export const metadata = {
-  title: "Sensai - AI Career Coach",
+  title: "carrerZen - AI Career Coach",
   description: "Your AI-powered career coach—unlock insights, ace interviews, and land your dream job effortlessly!",
 };
 
@@ -31,7 +31,7 @@ export default function RootLayout({ children }) {
             <main className="min-h-screen">{children}</main>
             <footer className="bg-muted/50 py-4">
               <div className="container mx-auto text-center text-gray-200">
-                <p>&copy; 2025 Sensai</p>
+                <p>&copy; 2025 carrerZen</p>
               </div>
             </footer>
           </ThemeProvider>
